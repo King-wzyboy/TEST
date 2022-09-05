@@ -1,0 +1,73 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topdiv{
+    width: 100%;
+    height: 2.25694rem;
+}
+#imgt{
+    width: 1.70138rem;
+    height: 1.4236rem;
+}
+#imgdiv{
+    width: 1.70138rem;
+    height: 1.4236rem;
+    margin-left: 0.694rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+#centerdiv{
+    width: 100%;
+    height: 2.430555rem;
+}
+h1{
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+.baixian{
+    width: 80%;
+    height: 0.3472rem;
+    margin-left: 10%;
+    background-color: white;
+}
+.content{
+    width: 80%;
+    height: 4.861rem;
+    margin-left: 10%;
+}
+.tou{
+    width: 3.472rem;
+    height: 3.472rem;
+    margin-top: 0.694rem;
+    margin-bottom: 0.694rem;
+    float: left;
+}
+.tx{
+    width: 3.472rem;
+    height: 3.472rem;
+}
+.xx{
+    width: 1.7361rem;
+    height: 1.7361rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+    margin-left: 55%;
+    float: left;
+}
+.xx50{
+    width: 1.7361rem;
+    height: 1.7361rem;
+}
+.yx{
+    width: 3.125rem;
+    height: 0.5208rem;
+    margin-top: 2.0833rem;
+    margin-bottom: 1.5625rem;
+    float: left;
+    text-align: center;
+    font-size: 0.5208rem;
+}

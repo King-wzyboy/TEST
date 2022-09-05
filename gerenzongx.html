@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    下面一行就是视口的适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/geren.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <title>个人中心</title>
+</head>
+<body>
+    <div id="leftdiv">
+        <div class="left">
+            <a href="index.html"><img src="img/return.png" id="return"></a>
+        </div>
+        <div class="left">
+            <div id="img1div">
+                <a href="xiaoxi.html"><img src="img/xiaoxi.png" id="img1"></a>
+            </div>
+            <div id="img1div2">
+                <a href="xiaoxi.html">消&nbsp;&nbsp;&nbsp;&nbsp;息</a>
+            </div>
+        </div>
+        <div class="left">
+            <div id="img2div">
+                <a href="gongju.html"><img src="img/shez.png" id="img2"></a>
+            </div>
+            <div id="img2div2">
+                <a href="gongju.html">设&nbsp;&nbsp;&nbsp;&nbsp;置</a>
+            </div>
+        </div>
+        <div class="left">
+            <div id="img3div">
+                <a href="history.html"><img src="img/history.png" id="img3"></a>
+            </div>
+            <div id="img3div2">
+                <a href="history.html">历&nbsp;&nbsp;&nbsp;&nbsp;史</a>
+            </div>
+        </div>
+    </div>
+    <div id="centerdiv">
+        <div class="center">
+            <div id="center1div">
+                <a href="gexing.html"><img src="img/gx.png" id="center1"></a>
+            </div>
+            <div id="center1div2">
+                <a href="gexing.html">个&nbsp;&nbsp;&nbsp;&nbsp;性</a>
+            </div>
+        </div>
+        <div class="center">
+            <div id="center2div">
+                <a href="#"><img src="img/id.png" id="center2"></a>
+            </div>
+            <div id="center2div2">
+                <a href="#">ID:&nbsp;x&nbsp;x&nbsp;x</a>
+            </div>
+        </div>
+        <div class="center">
+            <div id="center3div">
+                <a href="shouchang.html"><img src="img/shoucang.png" id="center3"></a>
+            </div>
+            <div id="center3div2">
+                <a href="shouchang.html">收&nbsp;&nbsp;&nbsp;&nbsp;藏</a>
+            </div>
+        </div>
+    </div>
+    <div id="rightdiv">
+        <div class="right">
+            <div id="right1div">
+                <a href="guanzhu.html"><img src="img/guanzhu.png" id="right1"></a>
+            </div>
+            <div id="right1div2">
+                <a href="guanzhu.html">关&nbsp;&nbsp;&nbsp;&nbsp;注</a>
+            </div>
+        </div>
+        <div class="right">
+            <div id="right2div">
+                <a href="gerenxingxi.html"><img src="img/gerenzliao.png" id="right2"></a>
+            </div>
+            <div id="right2div2">
+                <a href="gerenxingxi.html">个&nbsp;人&nbsp;资&nbsp;料</a>
+            </div>
+        </div>
+        <div class="right">
+            <div id="right3div">
+                <a href="friend.html"><img src="img/friend.png" id="right3"></a>
+            </div>
+            <div id="right3div2">
+                <a href="friend.html">好&nbsp;&nbsp;&nbsp;&nbsp;友</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

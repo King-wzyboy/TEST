@@ -1,0 +1,71 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topdiv{
+    width: 100%;
+    height: 2.25694rem;
+}
+#imgt{
+    width: 1.70138rem;
+    height: 1.4236rem;
+}
+#imgdiv{
+    width: 1.70138rem;
+    height: 1.4236rem;
+    margin-left: 0.694rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+#topdiv1{
+    width: 100%;
+    height: 10.4167rem;
+}
+#toux{
+    width: 3.4702rem;
+    height: 3.4722rem;
+    margin-top: 3.4722rem;
+    margin-left: 10.76rem;
+}
+#toux1{
+    width: 3.4702rem;
+    height: 3.4722rem;
+}
+#toux2{
+    height: 3.4722rem;
+    width: 100%;
+    text-align: center;
+}
+#centerdiv{
+    width: 100%;
+    height: 17.3611rem;
+}
+#ctoux{
+    margin-left: 8.1597rem;
+    width: 8.6806rem;
+    height: 8.6806rem;
+}
+#ctx{
+    width: 8.6806rem;
+    height: 8.6806rem;
+}
+#text{
+    width: 100%;
+    height: 1.7361rem;
+    text-align: center;
+}
+#bottomdiv{
+    width: 100%;
+    height: 10.9375rem;
+}
+#cb{
+    width: 2.4306rem;
+    height: 3.8194rem;
+    margin-left: 11.2847rem;
+}
+#cback{
+    width: 2.4306rem;
+    height: 3.8194rem;
+}

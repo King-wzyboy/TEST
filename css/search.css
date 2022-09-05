@@ -1,0 +1,49 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topdiv{
+    width: 100%;
+    height: 3.4722rem;
+}
+#input{
+    width: 93.05%;
+    height:60% ;
+    margin-left: 3%;
+    margin-top: 0.6945rem;
+    background-color:  rgba(115,115,115,0.5);
+    border-radius: 0.8681rem;
+    display: table-cell;
+    font-size:1.3889rem;
+    text-indent:4%;
+}
+#topdiv1{
+    width: 100%;
+    height: 1.7361rem;
+}
+.centerdiv{
+    width: 100%;
+    height: 10.7639rem;
+}
+.table{
+    height: 10.7639rem;
+    width: 23.4375rem;
+    margin-left: 0.75rem;
+}
+#topdiv2{
+    width: 100%;
+    height: 1.7361rem;
+}
+#b1{
+    margin-left: 40%;
+}
+#divvip{
+    width: 1.70138rem;
+    height: 1.4236rem;
+    margin-left: 0.694rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    float: left;
+}

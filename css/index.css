@@ -1,0 +1,134 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topdiv{
+    height: 3.4722rem;
+    background-color: lightpink;
+}
+.divtop{
+    width: 20%;
+    float: left;
+    height: 80%;
+    text-align: center;
+    font-size: 1.2153rem;
+    margin-top: 0.6944rem;
+}
+.a-top{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    font-weight: bold;
+    color: blueviolet;
+}
+#topdiv1{
+    width: 100%;
+    height: 7.2917rem;
+    text-align: center;
+}
+#img1{
+    margin-top: 0.3472rem;
+    width: 100%;
+    height: 6.944rem;
+}
+#topdiv2{
+    width: 100%;
+    height: 5.3819rem;
+}
+.divtop2{
+    float: left;
+    height: 4.10rem;
+    width:  16.6666%;
+    font-size: 0.8681rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.img-2{
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-left: 0.55rem;
+}
+.b-top{
+    text-decoration: none;
+    color: black;
+    margin-left: 0.2rem;
+    font-weight: normal;
+}
+#topdiv3{
+    height: 0.3473rem;
+    width: 100%;
+    background-image: url("../img/guodu.png");
+}
+#centerdiv{
+    height: 2.9514rem;
+    width: 100%;
+
+}
+#xx{
+    width: 1.7361rem;
+    height: 1.7361rem;
+    float: left;
+    margin-left: 0.6945rem;
+    vertical-align: middle;
+}
+#w{
+    width: 4.4722rem;
+    height: 2.0417rem;
+    margin-top: 0.5rem;
+    margin-left: 2.4306rem;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+#centerdiv1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 20.8333rem;
+}
+.liimg{
+    flex: 1;
+    width: 9.375rem;
+    float: left;
+    margin-left: 2.2569rem;
+    margin-bottom: 1.9097rem;
+    overflow: auto;
+}
+.iimg{
+    width: 9.375rem;
+}
+ul{
+    flex: 1;
+    width: 100%;
+    height: 20.8333rem;
+    overflow: auto;
+}
+#bottomdiv{
+    width: 100%;
+    height: 4rem;
+    background-color: lightpink;
+}
+.bdiv{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.bimg{
+    /*margin-left: 22%;*/
+    /*margin-top: 10%;*/
+    width: 45%;
+    height: 56%;
+    text-align: center;
+}
+.abottom{
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 0.6933rem;
+    font-weight: bold;
+}

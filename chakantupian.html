@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--    下面一行就是视口的适配-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/chakan.css" type="text/css" rel="stylesheet"/>
+        <link href="css/global.css" type="text/css" rel="stylesheet"/>
+        <title>查看</title>
+    </head>
+</head>
+<body>
+    <div id="topdiv">
+        <div class="divtop">
+            <a href="index.html" class="a-top">首页</a>
+        </div>
+        <div class="divtop">
+            <a href="gongju.html" class="a-top">工具</a>
+        </div>
+        <div class="divtop">
+            <a href="fourm.html" class="a-top">论坛</a>
+        </div>
+        <div class="divtop">
+            <a href="tuijian.html" class="a-top">推荐</a>
+        </div>
+        <div class="divtop">
+            <a href="search.html" class="a-top">搜索</a>
+        </div>
+    </div>
+    <div id="topdiv1">
+
+    </div>
+    <div id="topdiv2">
+        <div id="div1">
+            <img src="img/chakan.png" id="img1">
+        </div>
+        <div id="div2">
+            <h2>作者:</h2><p id="pid">xxx</p>
+        </div>
+    </div>
+    <div id="centerdiv">
+        <div class="cdiv">
+            <div id="div4">
+
+            </div>
+            <div id="divtop">
+                <img src="img/chkancenter.png" id="img2">
+            </div>
+            <div id="divcenter">
+                <p style="line-height: 200%;font-size: 1.0417rem">
+                    作品名&nbsp;&nbsp;xxx
+                    <br>分辨率&nbsp;&nbsp;1920*1080
+                    <br>创作时间&nbsp;&nbsp;2022年08月22日
+                    <br>介绍&nbsp;&nbsp;xxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxx
+                </p>
+            </div>
+            <div id="divbottom">
+                <img src="img/chakan2.png" style="margin-left: 50%;width: 10.1736rem;height: 1.6667rem">
+            </div>
+        </div>
+    </div>
+    <div id="bottomdiv">
+        <div class="bdiv">
+            <a href="index.html" class="abottom"><img src="img/bottom1.png" class="bimg">
+                <div class="divtext">首&nbsp;&nbsp;页</div>
+            </a>
+        </div>
+        <div class="bdiv">
+            <a href="tuijian.html" class="abottom"><img src="img/bottom2.png" class="bimg">
+                <div class="divtext">精&nbsp;&nbsp;选</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="create.html" class="abottom"><img src="img/bottom3.png" class="bimg">
+                <div class="divtext">创&nbsp;&nbsp;作</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="tuku.html" class="abottom"><img src="img/bottom4.png" class="bimg">
+                <div class="divtext">图&nbsp;&nbsp;库</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="#" class="abottom"><img src="img/bottom5.png" class="bimg">
+                <div class="divtext">个人中心</div></a>
+        </div>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

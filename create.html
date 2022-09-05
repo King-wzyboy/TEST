@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--    下面一行就是视口的适配-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/create.css" type="text/css" rel="stylesheet"/>
+        <link href="css/global.css" type="text/css" rel="stylesheet"/>
+        <title>创作</title>
+    </head>
+</head>
+<body>
+    <div id="topdiv">
+        <div class="divtop">
+            <a href="index.html" class="a-top">首页</a>
+        </div>
+        <div class="divtop">
+            <a href="gongju.html" class="a-top">工具</a>
+        </div>
+        <div class="divtop">
+            <a href="fourm.html" class="a-top">论坛</a>
+        </div>
+        <div class="divtop">
+            <a href="tuijian.html" class="a-top">推荐</a>
+        </div>
+        <div class="divtop">
+            <a href="search.html" class="a-top">搜索</a>
+        </div>
+    </div>
+    <div id="topdiv1">
+
+    </div>
+    <div id="topdiv2">
+
+    </div>
+    <div id="centerdiv">
+        <section id="section">
+            <div class="cdiv" style="background-color:  rgba(255,225,255,0);">
+                <div class="div2">
+                    <img src="img/create.png" id="img3">
+                </div>
+            </div>
+            <div class="cdiv1">
+                <h1>草稿箱</h1>
+            </div>
+            <div class="cdiv">
+                <div class="div2">
+                    <img src="img/create2.png" class="section-img">
+                    <img src="img/create1.png" class="section-img">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="bottomdiv">
+        <div class="bdiv">
+            <a href="index.html" class="abottom"><img src="img/bottom1.png" class="bimg">
+                <div class="divtext">首&nbsp;&nbsp;页</div>
+            </a>
+        </div>
+        <div class="bdiv">
+            <a href="tuijian.html" class="abottom"><img src="img/bottom2.png" class="bimg">
+                <div class="divtext">精&nbsp;&nbsp;选</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="create.html" class="abottom"><img src="img/bottom3.png" class="bimg">
+                <div class="divtext">创&nbsp;&nbsp;作</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="tuku.html" class="abottom"><img src="img/bottom4.png" class="bimg">
+                <div class="divtext">图&nbsp;&nbsp;库</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="gerenzongx.html" class="abottom"><img src="img/bottom5.png" class="bimg">
+                <div class="divtext">个人中心</div></a>
+        </div>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

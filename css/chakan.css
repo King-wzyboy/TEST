@@ -1,0 +1,122 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topdiv{
+    height: 3.4722rem;
+    background-color: lightpink;
+}
+.divtop{
+    width: 20%;
+    float: left;
+    height: 80%;
+    text-align: center;
+    font-size: 1.2153rem;
+    margin-top: 0.6944rem;
+}
+.a-top{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    font-weight: bold;
+    color: blueviolet;
+}
+#topdiv1{
+    background-color: white;
+    width: 100%;
+    height: 0.3472rem;
+}
+#topdiv2{
+    width: 100%;
+    height: 2.0833rem;
+    margin-top: 1.04167rem;
+}
+#div1{
+    width: 14%;
+    height: 100%;
+    float: left;
+}
+#div2{
+    float: left;
+    width: 86%;
+    height: 100%;
+}
+#img1{
+    width: 1.7361rem;
+    height: 1.7361rem;
+    margin-left: 1.3889rem;
+}
+h2{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#pid{
+    width: 80%;
+    height: 50%;
+    float: left;
+    margin-top: 0.4944rem;
+}
+#bottomdiv{
+    width: 100%;
+    height: 4rem;
+    background-color: lightpink;
+}
+.bdiv{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.bimg{
+    /*margin-left: 22%;*/
+    /*margin-top: 10%;*/
+    width: 45%;
+    height: 56%;
+    text-align: center;
+}
+.abottom{
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 0.6933rem;
+    font-weight: bold;
+}
+#centerdiv{margin-top: 0;
+    width: 100%;
+    height: 33.5069rem;
+}
+.cdiv{
+    height: 31.5972rem;
+    margin-left: 5.7%;
+    width:88.6%;
+    background-color:  rgba(255,225,255,0.8);
+    border-radius: 0.8681rem;
+    margin-bottom: 0.8681rem;
+}
+#divtop{
+    width: 19.7917rem;
+    height: 13.2639rem;
+    margin-left: 1.2153rem;
+}
+#img2{
+    width: 19.7917rem;
+    height: 13.2639rem;
+}
+#div4{
+    width: 100%;
+    height: 1.0417rem;
+}
+#divcenter{
+    width: 19.7917rem;
+    height: 13.8889rem;
+    margin-left: 1.2153rem;
+}
+#divbottom{
+    width: 100%;
+    height: 3.6806rem;
+}

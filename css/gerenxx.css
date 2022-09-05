@@ -1,0 +1,44 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topdiv{
+    width: 100%;
+    height: 2.08334rem;
+    overflow: hidden;
+}
+#imgt{
+    width: 1.70138rem;
+    height: 1.4236rem;
+}
+#imgdiv{
+    width: 1.70138rem;
+    height: 1.4236rem;
+    margin-left: 0.694rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    float: left;
+}
+#centerdiv{
+    width: 100%;
+    height: 4.1667rem;
+}
+#bottomdiv{
+    width: 94%;
+    height: 38.1944rem;
+    margin-left: 3%;
+    background-color: rgba(255,255,255,0.7);
+}
+.imgdiv{
+    width: 2.0833rem;
+    height: 2.0833rem;
+    margin-left: 0.8681rem;
+    float: left;
+}
+.tablediv{
+    float: left;
+    width: 19.097rem;
+    height: 100%;
+}

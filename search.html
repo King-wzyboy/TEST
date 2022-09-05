@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    下面一行就是视口的适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/search.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <title>搜索</title>
+</head>
+<body>
+    <div style="width: 100%;height: 2.08334rem;overflow: hidden;">
+        <div id="divvip">
+            <a href="index.html"> <img src="img/return.png" id="imgt" style="width: 1.70138rem;height: 1.4236rem;"></a>
+        </div>
+    </div>
+    <div id="topdiv">
+        <input type="text" name="" autocomplete=“off” id="input" value="" />
+    </div>
+    <div id="topdiv1">
+        <h2>&nbsp;&nbsp;热搜</h2>
+    </div>
+    <div class="centerdiv">
+        <table class="table">
+            <tr>
+                <td><b>1</b> xxxxxxx</td>
+                <td><b>2</b> xxxxxxx</td>
+            </tr>
+            <tr>
+                <td><b>3</b> xxxxxxx</td>
+                <td><b>4</b> xxxxxxx</td>
+            </tr>
+            <tr>
+                <td><b>5</b> xxxxxxx</td>
+                <td><b>6</b> xxxxxxx</td>
+            </tr>
+            <tr>
+                <td><b>7</b> xxxxxxx</td>
+                <td><b>8</b> xxxxxxx</td>
+            </tr>
+            <tr>
+                <td><b>9</b> xxxxxxx</td>
+                <td><b>10</b> xxxxxxx</td>
+            </tr>
+        </table>
+    </div>
+    <div id="topdiv2">
+        <h2>&nbsp;&nbsp;搜索历史</h2>
+    </div>
+    <div class="centerdiv">
+        <table class="table">
+            <tr>
+                <td>xxxxxxx</td>
+                <td>xxxxxxxxxxx</td>
+                <td>xx</td>
+            </tr>
+            <tr>
+                <td>xxxxxxx</td>
+                <td>xxxxxxxxxxx</td>
+                <td>xxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxxxxxxxxx</td>
+                <td>xxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xxxxxxxxxxx</td>
+                <td>xxxxxxx</td>
+                <td>xxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xxxxxxxx</td>
+                <td>xxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxx</td>
+            </tr>
+        </table>
+    </div>
+    <div id="bottomdiv" style="height: 1.7361rem;width: 100%">
+        <b id="b1">清空历史记录</b>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

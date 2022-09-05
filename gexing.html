@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    下面一行就是视口的适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/gexing.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <title>个性</title>
+</head>
+<body>
+    <div id="topdiv">
+        <div id="imgdiv">
+            <a href="gerenzongx.html"> <img src="img/return.png" id="imgt"></a>
+        </div>
+    </div>
+    <div id="topdiv1">
+        <div id="toux">
+            <img src="img/changefont.png" id="toux1">
+        </div>
+        <div id="toux2">
+            <h3 style="color: white">点击更换字体</h3>
+        </div>
+    </div>
+    <div id="centerdiv">
+        <div id="ctoux">
+            <img src="img/changetouxiang.png" id="ctx">
+        </div>
+        <div id="text">
+            <h3 style="font-size: 1.7361rem;color:white;">点击更换头像</h3>
+        </div>
+    </div>
+    <div id="bottomdiv">
+        <div id="cb">
+            <img src="img/changeb.png" id="cback">
+        </div>
+        <div id="text1" style="text-align: center">
+            <a href="changebg.html" style="font-size: 1.7361rem;color:white;">点我更换背景</a>
+        </div>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

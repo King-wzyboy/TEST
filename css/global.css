@@ -1,0 +1,5 @@
+*{ /** padding和border不会撑大盒子*/
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    下面一行就是视口的适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/shouchang.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <title>收藏</title>
+</head>
+<body>
+    <div id="topdiv">
+        <div id="imgdiv">
+            <a href="gerenzongx.html"> <img src="img/return.png" id="imgt"></a>
+        </div>
+    </div>
+    <div id="centerdiv">
+        <h1>我的收藏</h1>
+    </div>
+    <div id="centerdiv2">
+        <div id="centerdiv1">
+            <ul style="list-style: none">
+                <li class="liimg"><a href="chakantupian.html"><img src="img/1.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/2.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/3.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/4.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/8.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/11.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/7.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/5.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/9.png" class="iimg"></a></li>
+                <li class="liimg"><a href="chakantupian.html"><img src="img/10.png" class="iimg"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="bottomdiv1"></div>
+    <div id="bottomdiv2">
+        <section id="section">
+            <div class="cdiv">
+                <div class="div1">
+                    <p style="font-size: 0.8681rem"><br><b style="color: green">ID：xxx</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布于x年x月x日</p>
+                </div>
+                <div class="div2">
+                    <img src="img/touxiang.png" class="section-img">
+                </div>
+                <div class="div3">
+                    <p style="font-size: 0.8681rem ;color: darkolivegreen"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xxxxxxxxxxxxxxxxxx<br>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>标签：#动漫</b></p>
+                </div>
+            </div>
+            <div class="cdiv">
+                <div class="div1">
+                    <p style="font-size: 0.8681rem"><br><b style="color: green">ID：yyy</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布于x年x月x日</p>
+                </div>
+                <div class="div2">
+                    <img src="img/touxiang1.png" class="section-img">
+                </div>
+                <div class="div3">
+                    <p style="font-size: 0.8681rem ;color: darkolivegreen"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xxxxxxxxxxxxxxxxxx<br>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>标签：#动漫</b></p>
+                </div>
+            </div>
+            <div class="cdiv">
+                <div class="div1">
+                    <p style="font-size: 0.8681rem"><br><b style="color: green">ID：zzz</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布于x年x月x日</p>
+                </div>
+                <div class="div2">
+                    <img src="img/touxiang.png" class="section-img">
+                </div>
+                <div class="div3">
+                    <p style="font-size: 0.8681rem ;color: darkolivegreen"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xxxxxxxxxxxxxxxxxx<br>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>标签：#动漫</b></p>
+                </div>
+            </div>
+            <div class="cdiv">
+                <div class="div1">
+                    <p style="font-size: 0.8681rem"><br><b style="color: green">ID：fff</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布于x年x月x日</p>
+                </div>
+                <div class="div2">
+                    <img src="img/touxiang1.png" class="section-img">
+                </div>
+                <div class="div3">
+                    <p style="font-size: 0.8681rem ;color: darkolivegreen"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xxxxxxxxxxxxxxxxxx<br>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>标签：#动漫</b></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

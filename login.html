@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 视口适配-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>有图网</title>
+    <link href="css/login.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="top-div">
+        <img src="img/logo.png" id="img-logo">
+    </div>
+    <div id="center-div">
+        <div id="center-top-div">
+            <img src="img/index-user.png" id="img-user">
+        </div>
+        <div id="center-center-div">
+            <form id="form-input" action="index.html">
+                <input type="text" autocomplete=“off” style="text-indent:7%" name="user_name" required="required" placeholder="账号" id="input1"/>
+                <input type="password" style="text-indent:7%" name="password" required="required" placeholder="密码" id="input2"/>
+                <div id="div1">
+                    <label id="lable1"><input type="checkbox" value="12" class="cheack">记住密码</label>
+                </div>
+                <div id="div2">
+                    <label id="lable2"><input type="checkbox" value="21" class="cheack">自动登录</label>
+                </div>
+                <div id="div3">
+                    <input type="submit" value="登录" id="bottom" onclick="true"/>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="bottom-div">
+        <div id="bottom-div1">
+            <a href="#" id="left-a">遇到问题？</a>
+        </div>
+        <div id="bottom-div2">
+            <a href="logon.html" id="right-a">注册账号</a>
+        </div>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

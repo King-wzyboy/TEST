@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    下面一行就是视口的适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/xiaoxi.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <title>消息</title>
+</head>
+<body>
+    <div id="topdiv">
+        <div id="imgdiv">
+            <a href="gerenzongx.html"> <img src="img/return.png" id="imgt"></a>
+        </div>
+        <div id="imgdiv1">
+            <a href="gerenzongx.html"> <img src="img/search1.png" id="imgt1"></a>
+        </div>
+    </div>
+    <div id="centerdiv" style="height: 3.4722rem;border-bottom: 0.1736rem solid white;">
+        <table style="font-size: 1.2153rem;width: 100%;height: 100%;">
+            <tr style="text-align: center;color: white">
+                <td style="border-right: 0.1736rem solid white;"><b>我的关注</b><br>50</td>
+                <td><b>关注我的</b><br>2.5w</td>
+            </tr>
+        </table>
+    </div>
+    <div class="bottomdiv">
+        <div class="textdiv">
+            <b style="font-size:1.21528rem;">回复我的</b>
+        </div>
+        <div class="imgdiv">
+            <p style="font-size:1.20528rem;margin: 0;color: white">11</p>
+        </div>
+    </div>
+    <div class="bottomdiv">
+        <div class="textdiv">
+            <b style="font-size:1.21528rem;">我回复的</b>
+        </div>
+        <div class="imgdiv" style="background-color: deepskyblue">
+            <p style="font-size:1.20528rem;margin: 0;color: white"></p>
+        </div>
+    </div>
+    <div class="bottomdiv">
+        <div class="textdiv">
+            <img src="img/tx3.png" style="width: 2.0833rem; height: 2.0833rem;">
+        </div>
+        <div class="imgdiv" >
+            <p style="font-size:1.20528rem;margin: 0;color: white">13</p>
+        </div>
+    </div>
+    <div class="bottomdiv">
+        <div class="textdiv">
+            <img src="img/tx1.png" style="width: 2.0833rem; height: 2.0833rem;">
+        </div>
+        <div class="imgdiv" >
+            <p style="font-size:1.20528rem;margin: 0;color: white">1</p>
+        </div>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

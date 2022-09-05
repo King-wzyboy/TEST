@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    下面一行就是视口的适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/tuijian.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <title>推荐与精选</title>
+</head>
+<body>
+    <div id="topdiv">
+    <div class="divtop">
+        <a href="tuijian.html" class="a-top" style="color: deepskyblue; font-size: 1em;border-bottom: solid 0.5208rem deepskyblue; ">推荐</a>
+    </div>
+    <div class="divtop">
+        <a href="gongju.html" class="a-top">工具</a>
+    </div>
+    <div class="divtop">
+        <a href="fourm.html" class="a-top">论坛</a>
+    </div>
+    <div class="divtop">
+        <a href="index.html" class="a-top">首页</a>
+    </div>
+    <div class="divtop">
+        <a href="search.html" class="a-top">搜索</a>
+    </div>
+</div>
+    <div id="centerdiv1">
+        <h3>&nbsp;&nbsp;每日精选</h3>
+    </div>
+    <div id="centerdiv3">
+
+    </div>
+    <div id="centerdiv2">
+        <ul style="list-style: none">
+            <li class="liimg"><a href="#"><img src="img/tupian1.png" class="iimg"></a></li>
+            <li class="liimg"><a href="#"><img src="img/tupian2.png" class="iimg"></a></li>
+            <li class="liimg"><a href="#"><img src="img/tupian3.png" class="iimg"></a></li>
+            <li class="liimg"><a href="#"><img src="img/tupian4.png" class="iimg"></a></li>
+            <li class="liimg"><a href="#"><img src="img/tupian5.png" class="iimg"></a></li>
+            <li class="liimg"><a href="#"><img src="img/tupian6.png" class="iimg"></a></li>
+        </ul>
+    </div>
+    <div id="bottomdiv">
+        <div class="bdiv">
+            <a href="index.html" class="abottom"><img src="img/bottom1.png" class="bimg">
+                <div class="divtext">首&nbsp;&nbsp;页</div>
+            </a>
+        </div>
+        <div class="bdiv">
+            <a href="tuijian.html" class="abottom"><img src="img/bottom2.png" class="bimg">
+                <div class="divtext">精&nbsp;&nbsp;选</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="create.html" class="abottom"><img src="img/bottom3.png" class="bimg">
+                <div class="divtext">创&nbsp;&nbsp;作</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="tuku.html" class="abottom"><img src="img/bottom4.png" class="bimg">
+                <div class="divtext">图&nbsp;&nbsp;库</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="gerenzongx.html" class="abottom"><img src="img/bottom5.png" class="bimg">
+                <div class="divtext">个人中心</div></a>
+        </div>
+    </div>
+
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

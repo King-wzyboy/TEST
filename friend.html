@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    下面一行就是视口的适配-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/friend.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.css" type="text/css" rel="stylesheet"/>
+    <title>好友</title>
+</head>
+<body>
+    <div id="topdiv">
+        <div id="imgdiv">
+            <a href="gerenzongx.html"> <img src="img/return.png" id="imgt"></a>
+        </div>
+    </div>
+    <div id="centerdiv">
+        <h1>好友</h1>
+    </div>
+    <div class="baixian">
+    </div>
+    <div class="content">
+        <div class="tou">
+            <img src="img/tx4.png" class="tx">
+        </div>
+        <div class="xx">
+            <img src="img/xx50.png" class="xx50">
+        </div>
+        <div class="yx">
+            5条未读消息
+        </div>
+    </div>
+    <div class="baixian">
+    </div>
+    <div class="content">
+        <div class="tou">
+            <img src="img/tx5.png" class="tx">
+        </div>
+        <div class="xx">
+            <img src="img/xx50.png" class="xx50">
+        </div>
+        <div class="yx">
+            4条未读消息
+        </div>
+    </div>
+    <div class="baixian">
+    </div>
+    <div class="content">
+        <div class="tou">
+            <img src="img/tx6.png" class="tx">
+        </div>
+        <div class="xx">
+            <img src="img/xx50.png" class="xx50">
+        </div>
+        <div class="yx">
+            3条未读消息
+        </div>
+    </div>
+    <div class="baixian">
+    </div>
+    <div class="content">
+        <div class="tou">
+            <img src="img/tx7.png" class="tx">
+        </div>
+        <div class="xx">
+            <img src="img/xx50.png" class="xx50">
+        </div>
+        <div class="yx">
+            2条未读消息
+        </div>
+    </div>
+    <div class="baixian">
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

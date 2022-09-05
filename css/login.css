@@ -1,0 +1,126 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/index-background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#top-div{
+    height: 9.8958rem;
+}
+#img-logo{
+    width: 4.236rem;
+    height: 3.681rem;
+    margin-left: 0.5903rem;
+    margin-top: 0.4861rem;
+}
+#center-div{
+    height: 31.25rem;
+}
+#center-top-div{
+    height: 7.1181rem;
+}
+#img-user{
+    width: 7.1181rem;
+    height: 7.1181rem;
+    margin-left: 8.8542rem;
+}
+#center-center-div{
+    height: 11.9792rem;
+}
+#form-input{
+    width: 100%;
+    height: 100%;
+}
+#input1{
+    margin-left: 6.0764rem;
+    margin-top: 1.3889rem;
+    width: 12.8472rem;
+    height: 2.2569rem;
+    background:white;
+    opacity:0.8;
+    border-radius: 0.8681rem;
+    font-size: 1.0417rem;
+}
+#input2{
+    margin-left: 6.0764rem;
+    margin-top: 0.6944rem;
+    width: 12.8472rem;
+    height: 2.2569rem;
+    background:white;
+    opacity:0.8;
+    border-radius: 0.8681rem;
+    font-size: 1.0417rem;
+}
+#div1{
+    float: left;
+    margin-left: 6.0764rem;
+    margin-top: 0.6944rem;
+    width: 5.2083rem;
+    height: 1.3889rem;
+}
+.cheack{
+    width:1.3889rem;
+    height: 1.3889rem;
+    vertical-align: middle;
+}
+#lable1{
+    font-size: 0.8681rem;
+    vertical-align: middle;
+    color: white;
+}
+#div2{
+    margin-left: 13.75rem;
+    margin-top: 0.6944rem;
+    width: 5.2083rem;
+    height: 1.3889rem;
+}
+#lable2{
+    font-size: 0.8681rem;
+    vertical-align: middle;
+    color: white;
+}
+#div3{
+    margin-left: 9.0278rem;
+    margin-top: 1.0417rem;
+    width: 6.9444rem;
+    height: 2.0833rem;
+}
+#bottom{
+    font-size: 0.8681rem;
+    width: 100%;
+    height: 100%;
+    background: aqua;
+    border-radius: 0.5208rem;
+}
+#bottom-div{
+    height: 3.2986rem;
+}
+#bottom-div1{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-left: 0;
+    padding-top: 2.0rem;
+}
+#bottom-div2{
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding-left: 9.028rem;
+    padding-top: 2.0rem;
+}
+#left-a{
+    text-align: center;
+    font-size: 0.8681rem;
+    width: 4.3403rem;
+    height: 0.8681rem;
+}
+#right-a{
+    text-align: center;
+    font-size: 0.8681rem;
+    width: 3.4722rem;
+    height: 0.8681rem;
+}
+a{
+    text-decoration: none;
+}

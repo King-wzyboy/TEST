@@ -1,0 +1,186 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#leftdiv{
+    height: 100%;
+    width: 31.95%;
+    float: left;
+}
+#centerdiv{
+    height: 100%;
+    width: 36.1%;
+    float: left;
+}
+#rightdiv{
+    height: 100%;
+    width: 31.95%;
+    float: left;
+}
+.left{
+    height: 25%;
+    width: 100%;
+    float: left;
+}
+#return{
+    width: 1.70139rem;
+    height: 1.42361rem;
+    margin-left: 1.0417rem;
+    margin-top: 1.0417rem;
+}
+#img1{
+    width: 5.4167rem;
+    height: 5.5208rem;
+
+}
+#img1div{
+    margin-left: 2.2569rem;
+    width: 5.4167rem;
+    height: 5.5208rem;
+}
+#img1div2{
+    margin-left: 2.2569rem;
+    width: 5.4167rem;
+    height: 1.7361rem;
+    text-align: center;
+}
+#img2div{
+    width: 6.5483rem;
+    height: 7.0486rem;
+    margin-left: 1.2157rem;
+    margin-top: 1.7361rem;
+}
+#img2div2{
+    text-align: center;
+    width: 6.5483rem;
+    height: 1.7361rem;
+    margin-left: 1.2157rem;
+}
+#img2{
+    width: 6.5483rem;
+    height: 7.0486rem;
+}
+#img3{
+    width: 4.0972rem;
+    height: 4.5486rem;
+}
+#img3div{
+    width: 4.0972rem;
+    height: 4.5486rem;
+    margin-left: 3.4722rem;
+    margin-top: 2.2569rem;
+}
+#img3div2{
+    width: 4.0972rem;
+    height: 1.7361rem;
+    margin-left: 3.4722rem;
+    text-align: center;
+}
+.center{
+    height: 33.33333334%;
+    width: 100%;
+    float: left;
+}
+#center1{
+    width: 6.3194rem;
+    height: 6.5278rem;
+}
+#center1div{
+    margin-top: 1.7361rem;
+    width: 6.3194rem;
+    height: 6.5278rem;
+}
+#center1div2{
+    height: 1.7361rem;
+    width: 6.3194rem;
+    text-align: center;
+}
+#center2{
+    width: 8.6111rem;
+    height: 8.75rem;
+}
+#center2div{
+    margin-top: 1.90972rem;
+    margin-left: 0.34723rem;
+    width: 8.6111rem;
+    height: 8.75rem;
+}
+#center2div2{
+    margin-left: 0.34723rem;
+    width: 8.6111rem;
+    height: 1.7361rem;
+    text-align: center;
+}
+#center3{
+    width: 5.3819rem;
+    height: 6.0094rem;
+}
+#center3div{
+    width: 5.3819rem;
+    height: 6.0094rem;
+    margin-top: 0.6944rem;
+    margin-left: 2.0833rem;
+}
+#center3div2{
+    width: 5.3819rem;
+    height: 1.7361rem;
+    text-align: center;
+    margin-left: 2.0833rem;
+}
+.right{
+    height: 33.33333334%;
+    width: 100%;
+    float: left;
+}
+#right1{
+    width: 6.1111rem;
+    height: 6.21578rem;
+}
+#right1div{
+    width: 6.1111rem;
+    height: 6.21578rem;
+    margin-top: 6.94rem;
+}
+#right1div2{
+    text-align: center;
+    height: 1.7361rem;
+    width: 6.1111rem;
+}
+#right2{
+    width: 5.7638rem;
+    height: 6.1458rem;
+}
+#right2div{
+    width: 5.7638rem;
+    height: 6.1458rem;
+    margin-top: 6.94rem;
+}
+#right2div2{
+    width: 5.7638rem;
+    text-align: center;
+    height: 1.7361rem;
+}
+#right3{
+    width: 6.4236rem;
+    height: 6.2847rem;
+}
+#right3div{
+    margin-left: 0.6944rem;
+    margin-top: 6.94rem;
+    width: 6.4236rem;
+    height: 6.2847rem;
+}
+#right3div2{
+    text-align: center;
+    height: 1.7361rem;
+    width: 6.4236rem;
+    margin-left: 0.6944rem;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.38rem;
+    color:mintcream;
+}

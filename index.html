@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--    下面一行就是视口的适配-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/index.css" type="text/css" rel="stylesheet"/>
+        <link href="css/global.css" type="text/css" rel="stylesheet"/>
+        <title>首页</title>
+    </head>
+</head>
+<body>
+    <div id="topdiv">
+        <div class="divtop">
+            <a href="index.html" class="a-top" style="color: deepskyblue; font-size: 1em;border-bottom: solid 0.5208rem deepskyblue; ">首页</a>
+        </div>
+        <div class="divtop">
+            <a href="gongju.html" class="a-top">工具</a>
+        </div>
+        <div class="divtop">
+            <a href="fourm.html" class="a-top">论坛</a>
+        </div>
+        <div class="divtop">
+            <a href="tuijian.html" class="a-top">推荐</a>
+        </div>
+        <div class="divtop">
+            <a href="search.html" class="a-top">搜索</a>
+        </div>
+    </div>
+    <div id="topdiv1">
+        <img src="img/daobotu.png" id="img1">
+    </div>
+    <div id="topdiv2">
+        <div class="divtop2">
+            <img src="img/youxi.png" class="img-2">
+            <a href="#" class="b-top" >游戏壁纸</a>
+        </div>
+        <div class="divtop2">
+            <img src="img/shik.png" class="img-2">
+            <a href="#" class="b-top">4K壁纸</a>
+        </div>
+        <div class="divtop2">
+            <img src="img/zhiran.png" class="img-2">
+            <a href="#" class="b-top">自然风景</a>
+        </div>
+        <div class="divtop2">
+            <img src="img/junshi.png" class="img-2">
+            <a href="#" class="b-top">军事科技</a>
+        </div>
+        <div class="divtop2">
+            <img src="img/touming.png" class="img-2">
+            <a href="#" class="b-top">透明壁纸</a>
+        </div>
+        <div class="divtop2">
+            <img src="img/gexing.png" class="img-2">
+            <a href="#" class="b-top">个性推荐</a>
+        </div>
+    </div>
+    <div id="topdiv3">
+    </div>
+    <div id="centerdiv">
+        <img src="img/xingxing.png" id="xx">
+        <div id="w">精选壁纸</div>
+    </div>
+    <div id="centerdiv1">
+        <ul style="list-style: none">
+            <li class="liimg"><a href="chakantupian.html"><img src="img/tupian1.png" class="iimg"></a></li>
+            <li class="liimg"><a href="chakantupian.html"><img src="img/tupian2.png" class="iimg"></a></li>
+            <li class="liimg"><a href="chakantupian.html"><img src="img/tupian3.png" class="iimg"></a></li>
+            <li class="liimg"><a href="chakantupian.html"><img src="img/tupian4.png" class="iimg"></a></li>
+            <li class="liimg"><a href="chakantupian.html"><img src="img/tupian5.png" class="iimg"></a></li>
+            <li class="liimg"><a href="chakantupian.html"><img src="img/tupian6.png" class="iimg"></a></li>
+        </ul>
+    </div>
+    <div id="bottomdiv">
+        <div class="bdiv">
+            <a href="index.html" class="abottom"><img src="img/bottom1.png" class="bimg">
+                <div class="divtext">首&nbsp;&nbsp;页</div>
+            </a>
+        </div>
+        <div class="bdiv">
+            <a href="tuijian.html" class="abottom"><img src="img/bottom2.png" class="bimg">
+                <div class="divtext">精&nbsp;&nbsp;选</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="create.html" class="abottom"><img src="img/bottom3.png" class="bimg">
+                <div class="divtext">创&nbsp;&nbsp;作</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="tuku.html" class="abottom"><img src="img/bottom4.png" class="bimg">
+                <div class="divtext">图&nbsp;&nbsp;库</div></a>
+        </div>
+        <div class="bdiv">
+            <a href="gerenzongx.html" class="abottom"><img src="img/bottom5.png" class="bimg">
+                <div class="divtext">个人中心</div></a>
+        </div>
+    </div>
+</body>
+</html>
+<!--动态获取根像素（25份）-->
+<script>
+    var fontsize = document.documentElement.clientWidth/25;
+    var s = document.documentElement.clientHeight;
+    document.documentElement.style.fontSize=fontsize+'px';
+    document.documentElement.style.backgroundSize = s + 'px';
+    window.onresize = function () {
+        var fontsize = document.documentElement.clientWidth/25;
+        document.documentElement.style.fontSize=fontsize+'px';
+    }
+</script>

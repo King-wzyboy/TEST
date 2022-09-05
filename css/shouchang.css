@@ -1,0 +1,106 @@
+html,body{width:100%;height: 100%;overflow:auto;margin: 0}
+/*使body高度固定，以便于设置背景*/
+body{
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topdiv{
+    width: 100%;
+    height: 2.25694rem;
+}
+#imgt{
+    width: 1.70138rem;
+    height: 1.4236rem;
+}
+#imgdiv{
+    width: 1.70138rem;
+    height: 1.4236rem;
+    margin-left: 0.694rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+#centerdiv{
+    width: 100%;
+    height: 2.430555rem;
+}
+h1{
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+#centerdiv2{
+    width: 100%;
+    height: 18.75rem;
+}
+#centerdiv1{
+    width: 95.8%;
+    height: 100%;
+    background-color: white;
+    margin-left: 2.1%;
+    border-radius: 1.8681rem;
+    display: flex;
+    flex-direction: column;
+}
+.liimg{
+    flex: 1;
+    width: 6.5973rem;
+    float: left;
+    margin-left: 1.0417rem;
+    margin-bottom: 0.6944rem;
+    margin-top: 0.6944rem;
+    overflow: auto;
+}
+ul{
+    flex: 1;
+    width: 100%;
+    height: 18.75rem;
+    overflow: auto;
+}
+.iimg{
+    width: 6.5973rem;
+}
+#bottomdiv1{
+    width: 100%;
+    height: 1.3888rem;
+}
+#bottomdiv2{
+    width: 100%;
+    height: 19.6181rem;
+    display: flex;
+    flex-direction: column;
+}
+.cdiv{
+    flex: 1;
+    overflow: auto;
+    width: 22.9167rem;
+    height: 20.8333rem;
+    margin-top: 1.0417rem;
+    margin-bottom: 1.0417rem;
+    margin-left: 1.0417rem;
+    background-color:  rgba(255,225,255,0.5);
+    border-radius: 0.8681rem;
+}
+section{
+    flex: 1;
+    width: 100%;
+    height: 34.7222rem;
+    overflow: auto;
+}
+.div1{
+    width: 100%;
+    height: 3.4722rem;
+    text-align: center;
+}
+.div2{
+    width: 100%;
+    height: 11.4583rem;
+}
+.div3{
+    width: 100%;
+    height: 5.9028rem;
+}
+.section-img{
+    width: 89.39%;
+    height: 100%;
+    margin-left: 5%;
+}
